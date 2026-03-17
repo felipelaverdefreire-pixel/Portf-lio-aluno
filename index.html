@@ -3,137 +3,160 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfólio Profissional</title>
+
+<title>CodeVerse</title>
 
 <style>
-    body{
-        margin:0;
-        font-family: 'Segoe UI', sans-serif;
-        background:#f4f6fb;
-        color:#333;
-    }
 
-    header{
-        background:linear-gradient(120deg,#1f3c88,#39a0ed);
-        color:white;
-        padding:60px 20px;
-        text-align:center;
-    }
+body{
+font-family: Arial;
+margin:0;
+background:#0f172a;
+color:white;
+}
 
-    header h1{
-        margin:0;
-        font-size:42px;
-    }
+header{
+text-align:center;
+padding:60px 20px;
+background:#020617;
+}
 
-    header p{
-        font-size:20px;
-        opacity:0.9;
-    }
+header img{
+width:150px;
+border-radius:50%;
+margin-bottom:20px;
+}
 
-    section{
-        padding:50px 20px;
-        max-width:1000px;
-        margin:auto;
-    }
+section{
+padding:60px 10%;
+}
 
-    h2{
-        text-align:center;
-        margin-bottom:30px;
-        color:#1f3c88;
-    }
+h2{
+color:#38bdf8;
+}
 
-    .cards{
-        display:flex;
-        flex-wrap:wrap;
-        gap:20px;
-        justify-content:center;
-    }
+.skills span{
+display:inline-block;
+background:#1e293b;
+padding:10px 15px;
+margin:5px;
+border-radius:6px;
+}
 
-    .card{
-        background:white;
-        padding:25px;
-        width:280px;
-        border-radius:12px;
-        box-shadow:0 8px 20px rgba(0,0,0,0.08);
-        transition:0.3s;
-    }
+.projetos{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
 
-    .card:hover{
-        transform:translateY(-6px);
-    }
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+}
 
-    .btn{
-        display:inline-block;
-        margin-top:15px;
-        padding:10px 18px;
-        background:#1f3c88;
-        color:white;
-        border-radius:20px;
-        text-decoration:none;
-        font-size:14px;
-    }
+footer{
+text-align:center;
+padding:30px;
+background:#020617;
+}
 
-    footer{
-        background:#1f3c88;
-        color:white;
-        text-align:center;
-        padding:20px;
-        margin-top:40px;
-    }
+a{
+color:#38bdf8;
+text-decoration:none;
+}
+
 </style>
 </head>
 
 <body>
 
 <header>
-    <h1>Felipe Laverde Freire</h1>
-    <p>Desenvolvedor(a) | Aluno de desenvolvimento infanto juvenil de Sistemas | BACK-end</p>
+
+<img src="foto.png">
+
+<h1>Felipe Laverde Freire</h1>
+
+<p>Semi desenvolvedor Web | Estudante infanto juvenil de Programação</p>
+
 </header>
 
-<section>
-    <h2>Gosto de baixinha cacheada</h2>
-    <p style="text-align:center; max-width:700px; margin:auto;">
-        Sou estudante de programação e pretendo me especializar na área de inteligencia articial
-      
-    </p>
-</section>
 
 <section>
-    <h2>Projetos</h2>
-    <div class="cards">
-        <div class="card">
-            <h3>Projeto 1</h3>
-            <p>como importar cigarro do paraguai.</p>
-            <a href="#" class="btn">Ver projeto</a>
-        </div>
 
-        <div class="card">
-            <h3>Projeto 2</h3>
-            <p>é seguro tomar caipirinha de 51?.</p>
-            <a href="#" class="btn">Ver projeto</a>
-        </div>
+<h2>Sobre mim</h2>
 
-        <div class="card">
-            <h3>Projeto 3</h3>
-            <p>Projeto de aprendizagem.</p>
-            <a href="#" class="btn">Ver projeto</a>
-        </div>
-    </div>
+<p>
+Sou estudante de programação apaixonado por tecnologia e desenvolvimento web. Estou aprendendo HTML, CSS e JavaScript e buscando evoluir constantemente criando projetos e aprimorando minhas habilidades.
+</p>
+
 </section>
+
 
 <section>
-    <h2>(44)999145227</h2>
-    <p style="text-align:center;">
-        📧 felipe.laverde.freire@escolapr.gov.br<br>
-        💼 LinkedIn: seu perfil<br>
-        💻 GitHub:
-    </p>
+
+<h2>Habilidades</h2>
+
+<div class="skills">
+
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>Git</span>
+<span>GitHub</span>
+
+</div>
+
 </section>
+
+
+<section>
+
+<h2>Projetos</h2>
+
+<div class="projetos">
+
+<div class="card">
+<h3>Projeto 1</h3>
+<p>Descrição do projeto.</p>
+<a href="#">Ver projeto</a>
+</div>
+
+<div class="card">
+<h3>Projeto 2</h3>
+<p>Descrição do projeto.</p>
+<a href="#">Ver projeto</a>
+</div>
+
+<div class="card">
+<h3>Projeto 3</h3>
+<p>Descrição do projeto.</p>
+<a href="#">Ver projeto</a>
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Contato profissional</h2>
+
+<p>Email: felipelaverdefreire@email.com</p>
+
+<p>GitHub: github.com/felipelaverdefreire</p>
+
+<p>LinkedIn: linkedin.com/in/felipela</p>
+
+</section>
+
 
 <footer>
-    <p>© 2026 - Felipe Laverde Freire | Portfólio semi funcional</p>
+
+<p>© 2026 - Laverde</p>
+
 </footer>
 
 </body>
 </html>
-
